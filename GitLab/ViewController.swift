@@ -62,4 +62,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return false
     }
     
+    @IBAction func authorize(_ sender: UIButton) {
+        
+    }
+    
 }

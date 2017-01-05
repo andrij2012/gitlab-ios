@@ -73,6 +73,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="authorize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2cr-F3-QL1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

@@ -12,6 +12,9 @@
 		95361BF11E1C677E006D0AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95361BEF1E1C677E006D0AE9 /* Main.storyboard */; };
 		95361BF31E1C677E006D0AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95361BF21E1C677E006D0AE9 /* Assets.xcassets */; };
 		95361BF61E1C677E006D0AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95361BF41E1C677E006D0AE9 /* LaunchScreen.storyboard */; };
+		95A4286B1E1DB6E300DD3D8B /* GitLabService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4286A1E1DB6E300DD3D8B /* GitLabService.swift */; };
+		95A4286D1E1DB85A00DD3D8B /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4286C1E1DB85A00DD3D8B /* HttpRequest.swift */; };
+		95A4286F1E1DBAB600DD3D8B /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4286E1E1DBAB600DD3D8B /* HttpResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		95361BF21E1C677E006D0AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95361BF51E1C677E006D0AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95361BF71E1C677E006D0AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A4286A1E1DB6E300DD3D8B /* GitLabService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitLabService.swift; sourceTree = "<group>"; };
+		95A4286C1E1DB85A00DD3D8B /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		95A4286E1E1DBAB600DD3D8B /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				95361BF21E1C677E006D0AE9 /* Assets.xcassets */,
 				95361BF41E1C677E006D0AE9 /* LaunchScreen.storyboard */,
 				95361BF71E1C677E006D0AE9 /* Info.plist */,
+				95A4286A1E1DB6E300DD3D8B /* GitLabService.swift */,
+				95A4286C1E1DB85A00DD3D8B /* HttpRequest.swift */,
+				95A4286E1E1DBAB600DD3D8B /* HttpResponse.swift */,
 			);
 			path = GitLab;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A4286F1E1DBAB600DD3D8B /* HttpResponse.swift in Sources */,
 				95361BEE1E1C677E006D0AE9 /* ViewController.swift in Sources */,
+				95A4286D1E1DB85A00DD3D8B /* HttpRequest.swift in Sources */,
 				95361BEC1E1C677E006D0AE9 /* AppDelegate.swift in Sources */,
+				95A4286B1E1DB6E300DD3D8B /* GitLabService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				95361BFC1E1C677E006D0AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
